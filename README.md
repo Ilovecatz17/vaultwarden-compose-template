@@ -2,7 +2,7 @@
 
 This is for people who want to set up vaultwarden with Docker compose but dont know what to put in the compose file
 
-services:
+```services:
   server:
     container_name: vaultwarden
     image: vaultwarden/server:latest
