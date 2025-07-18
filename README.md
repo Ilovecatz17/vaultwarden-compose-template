@@ -13,4 +13,4 @@ This is for people who want to set up vaultwarden with Docker compose but dont k
     environment:
       - SIGNUPS_ALLOWED="true" or "false"
       - ADMIN_TOKEN=[password] 
-      - DOMAIN= [Website that its hosting to]
+      - DOMAIN= [Website that its hosting to, for example, "localhost:8080"]
