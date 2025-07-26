@@ -7,6 +7,7 @@ This is for people who want to set up vaultwarden with Docker compose but dont k
   server:
     container_name: vaultwarden
     image: vaultwarden/server:latest
+    restart: unless-stopped (only keep this here if you want it to stay running after restarting your computer)
     ports:
       - '[port]:80'
     volumes:
