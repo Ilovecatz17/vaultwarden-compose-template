@@ -1,5 +1,5 @@
 # vaultwarden-compose-template
-Make sure to back up your personal compose file when updating vaultwarden
+### Make sure to back up your personal compose file when updating vaultwarden
 
 This is for people who want to set up vaultwarden with Docker compose but dont know what to put in the compose file
 
